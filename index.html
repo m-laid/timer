@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="date">December 01, 2024</h1>
+
+    <div class="progress-section">
+      <span class="progress-title">Week</span>
+      <div class="progress-bar">
+        <div class="progress-empty"></div>
+        <div class="progress-fill" id="week-progress">
+          <span class="progress-percentage" id="week-percentage">14%</span>
+        </div>
+        <span class="progress-day" id="week-day">Day 01 of 07</span>
+      </div>
+    </div>
+
+    <div class="progress-section">
+      <span class="progress-title">Month</span>
+      <div class="progress-bar">
+        <div class="progress-empty"></div>
+        <div class="progress-fill" id="month-progress">
+          <span class="progress-percentage" id="month-percentage">3%</span>
+        </div>
+        <span class="progress-day" id="month-day">Day 01 of 31</span>
+      </div>
+    </div>
+
+    <div class="progress-section">
+      <span class="progress-title">Year</span>
+      <div class="progress-bar">
+        <div class="progress-empty"></div>
+        <div class="progress-fill" id="year-progress">
+          <span class="progress-percentage" id="year-percentage">91%</span>
+        </div>
+        <span class="progress-day" id="year-day">Day 336 of 366</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
